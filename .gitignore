@@ -1,0 +1,59 @@
+# ============================================
+# CLion / CMake / MinGW C++ Project .gitignore
+# ============================================
+
+# --- Build folders ---
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+build/
+out/
+*.ninja
+.ninja_deps
+.ninja_log
+
+# --- Executables & Objects ---
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.obj
+*.o
+*.pdb
+*.ilk
+
+# --- IDE files ---
+.idea/
+.vscode/
+*.iml
+
+# --- Logs, temp, and misc ---
+*.log
+*.tmp
+*.swp
+*.swo
+*.user
+*.class
+*.db
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# --- CLion run/debug artifacts ---
+*.iws
+*.cmake
+*.ccls-cache/
+*.clangd/
+*.dSYM/
+*.cache/
+*.vscode/
+*.clang-format
+
+# --- End of file ---
